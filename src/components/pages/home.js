@@ -13,8 +13,8 @@ class Home extends React.Component {
     render() {
         return (
             <>
-            <NavBar />
             <BrowserRouter>
+            <NavBar />
             <Switch>
                 <Route exact path='/'>
                     <div className = "visit-us">
