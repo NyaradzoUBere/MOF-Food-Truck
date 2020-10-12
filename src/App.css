@@ -56,23 +56,32 @@ body {
 }
 
 .nav-bar {
-  height: 80px;
+  height: 100px;
   text-align: right;
   padding: 10px 10px;
   padding-right: 30px;
   font-size: 20px;
-  background-color: chocolate;
-  /* width: 100vw; */
-  /* position: fixed; */
+  background-color: rgba(210, 105, 30, .9);
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
 }
 
 .nav-bar p {
   margin: 30px 30px;
 }
 
+.logo {
+  width: 150px;
+  height: 100px;
+  float: left;
+  filter: brightness(80%);
+  border: 2px solid rgb(51, 77, 56);
+}
+
 .visit-us {
   height: 550px;
-  background-color: rgb(25, 25, 36);
+  background-color: rgb(22, 27, 23);
   color: white;
   font-size: 80px;
   position: relative;
