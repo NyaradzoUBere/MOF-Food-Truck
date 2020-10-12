@@ -1,38 +1,212 @@
-.App {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF MEYERS RESET */
+
+body {
+  font-family: sans-serif;
+  color: black;
+  width: 100%;
+  height: 100;
+}
+
+.nav-bar {
+  height: 80px;
+  text-align: right;
+  padding: 10px 10px;
+  padding-right: 30px;
+  font-size: 20px;
+  background-color: chocolate;
+  /* width: 100vw; */
+  /* position: fixed; */
+}
+
+.nav-bar p {
+  margin: 30px 30px;
+}
+
+.visit-us {
+  height: 550px;
+  background-color: rgb(25, 25, 36);
+  color: white;
+  font-size: 80px;
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.visit-us h1 {
+  letter-spacing: 5px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-section {
+  height: 1300px;
+  /* width: 100vw; */
+  padding: 10px 10px;
+  background-color: rgba(212, 209, 209, 0.425);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.food, .meat {
+  height: 200px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.food {
+  padding: 60px 0px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.food-header, .meat-header{
+  font-size: 50px;
+
+}
+
+.food-header {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px chocolate solid;
+  width: 700px;
+  color: rgb(37, 37, 63);
+  /* float: left; */
+}
+
+.food-wording {
+  float: left;
+}
+
+.meat-pies {
+  float: right;
+  /* padding-right: 90px; */
+}
+
+.food-paragraph {
+  padding-left: 40px;
+  /* float: left; */
+  width: 600px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: rgb(37, 37, 63);
+  font-weight: lighter;
+}
+
+.meat-pies, .chicken-with-corn {
+  /* position: relative; */
+  width: 600px;
+  height: 550px;
+  filter: brightness(70%);
+}
+
+.meat-pies {
+  /* display: flex; */
+  padding-right: 80px;
+  border-radius: 3px;
+}
+
+.meat {
+  /* display: flex; */
+  display: inline-block;
+  padding: 80px 0px 60px;
+}
+
+.meat-paragraph {
+  width: 600px;
+  /* float: right; */
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding-right: 80px;
+  padding-top: 20px;
+  line-height: 1.5;
+  color: rgb(37, 37, 63);
+  font-weight: lighter;
+}
+
+.meat-header {
+  padding: 20px 0px;
+  width: 600px;
+  border-bottom: 1px chocolate solid;
+  color: rgb(37, 37, 63);
+  /* float: left; */
+}
+
+.chicken-with-corn {
+  float: left;
+  padding-left: 80px;
+  border-radius: 3px;
+}
+
+.meat-wording {
+  float: right;
+}
+
+
+.social-media {
+  /* display: flex; */
+  height: 300px;
+  width: 100vw;
+  /* float: none; */
+  background-color: rgba(212, 209, 209, 0.425);
+}
+
+.instagram-handle {
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(37, 37, 63);
+}
+
+.follow-us {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(37, 37, 63);
 }
