@@ -2,6 +2,9 @@ import React from 'react'
 import NavBar from '../navBar'
 import MeatPies from '../../MeatPies.JPG'
 import ChickenCorn from '../../ChickenWithCorn.JPG'
+import ChickenPotato from '../../ChickenWithPotato.jpg'
+import Kabob from '../../RiceWithKabob.jpg'
+import Shrimp from '../../ShrimpBlackRice.JPG'
 
 class Home extends React.Component {
 
@@ -35,12 +38,15 @@ class Home extends React.Component {
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
-                    <img className = "chicken-with-corn" src = {ChickenCorn} alt= "meat pies"/>
+                    <img className = "chicken-with-corn" src = {ChickenCorn} alt= "chicken with corn"/>
                 </div>
             </div>
             <div className = "social-media">
                 <h2 className = "instagram-handle">@MuzoOnFire</h2>
                 <h4 className = "follow-us">Follow us on facebook or instagram</h4>
+                <img className = "social-media-image" src = {Kabob} alt= "Kabob"/>
+                <img className = "social-media-image" src = {ChickenPotato} alt= "chicken with potato"/>
+                <img className = "social-media-image" src = {Shrimp} alt= "shrimp with black rice"/>
             </div>
             </>
         )

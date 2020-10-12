@@ -191,22 +191,34 @@ body {
 
 .social-media {
   /* display: flex; */
-  height: 300px;
+  height: 700px;
   width: 100vw;
   /* float: none; */
   background-color: rgba(212, 209, 209, 0.425);
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .instagram-handle {
   display: block;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   color: rgb(37, 37, 63);
 }
 
 .follow-us {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 80px;
   color: rgb(37, 37, 63);
+}
+
+.social-media-image {
+  width: 400px;
+  height: 400px;
+  margin: 20px 20px;
+  object-fit: cover;
+  filter: brightness(70%);
+  border-radius: 3px;
+  padding-bottom: 20px;
 }
