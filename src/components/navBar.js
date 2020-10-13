@@ -7,10 +7,10 @@ export default function navbar() {
             <img className = "logo" src = "https://muzoonfire.com/wp-content/uploads/2018/01/Re-Size_Logo.png" alt = "muzo on fire logo"/>
             <ul>
                 <li>
-                    <Link to = "/" className = "home-link">Home</Link>
+                    <Link to = "/about" className = "about-link">About</Link>
                 </li>
                 <li>
-                    <Link to = "/about" className = "about-link">About</Link>
+                    <Link to = "/" className = "home-link">Home</Link>
                 </li>
             </ul>
         </div>
